@@ -1,11 +1,11 @@
 import React, { useContext, useReducer, useState,useCallback } from 'react'
-import rough from "roughjs/bin/rough";
+import rough from "roughjs/bin/rough"
 import boardContext from './board-context'
-import { BOARD_ACTIONS, TOOL_ACTION_TYPES, TOOL_ITEMS } from '../constants';
+import { BOARD_ACTIONS, TOOL_ACTION_TYPES, TOOL_ITEMS } from '../constants'
 
-import { createRoughElement, getSvgPathFromStroke,isPointNearElement } from '../utility/element';
-import toolBoxContext from './toolBox-context';
-import getStroke from "perfect-freehand";
+import { createRoughElement, getSvgPathFromStroke,isPointNearElement } from '../utility/element'
+import toolBoxContext from './toolBox-context'
+import getStroke from "perfect-freehand"
 
 
 

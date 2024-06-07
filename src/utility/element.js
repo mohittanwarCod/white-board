@@ -1,10 +1,10 @@
-import {  TOOL_ITEMS,ARROW_LENGTH } from "../constants";
-import rough from "roughjs/bin/rough";
-import { getArrowHeadsCoordinates,isPointCloseToLine } from "./math";
-import getStroke from "perfect-freehand";
+import {  TOOL_ITEMS,ARROW_LENGTH } from "../constants"
+import rough from "roughjs/bin/rough"
+import { getArrowHeadsCoordinates,isPointCloseToLine } from "./math"
+import getStroke from "perfect-freehand"
 
 export const createRoughElement =  (id,x1,y1,x2,y2,{ type,stroke,fill,size }) => {
- const gen = rough.generator();
+ const gen = rough.generator()
  const element = {
     id,
     x1,
